@@ -23,7 +23,8 @@ function Banner() {
 
   useEffect(() => {
     async function fetchData() {
-      const request = await axios.get(requests.fetchTrending);
+      const request = await axios.get(requests.fetchWorld);
+      console.log(request);
 
       setMovie(
         request.data.results[

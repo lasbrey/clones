@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="bg-black">
       <Banner />
-      <Rows title="Trending Now" fetchUrl={requests.fetchTrending}/>
+      <Rows title="Trending Now" fetchUrl={requests.fetchWorld}/>
       <Rows title="Top Rated" fetchUrl={requests.fetchToprated} />
       <Rows title="Action " fetchUrl={requests.fetchActionMovies} />
       <Rows title="Commedy " fetchUrl={requests.fetchComedyMovies} />
