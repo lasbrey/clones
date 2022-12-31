@@ -1,0 +1,4 @@
+.row-item{
+    grid-auto-rows: 0;
+    grid-template-rows: 1fr;
+}
